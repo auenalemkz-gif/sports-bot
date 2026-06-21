@@ -1,5 +1,8 @@
 import os
-
+{"url": "https://www.goal.com/feeds/ru/news", "sport": "Футбол", "lang": "ru"},
+{"url": "https://www.sports.ru/rss/football/", "sport": "Футбол", "lang": "ru"},
+{"url": "https://www.transfermarkt.com/rss/news", "sport": "Футбол", "lang": "en"},
+{"url": "https://www.fifa.com/rss-feeds/news.xml", "sport": "Футбол", "lang": "en"},
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHANNEL_ID = os.getenv("TELEGRAM_CHANNEL_ID", "")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
